@@ -1,13 +1,14 @@
-import React from "react";
-import DirectoryTree from "./components/DirectoryTree";
-import "./App.css";
+// src/App.js
+import React from 'react';
+import DirectoryTree from './components/DirectoryTree';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <DirectoryTree />
     </div>
   );
-}
+};
 
 export default App;

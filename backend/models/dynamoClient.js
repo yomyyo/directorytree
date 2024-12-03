@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 
 const dynamoDB = new AWS.DynamoDB.DocumentClient({
-  region: 'us-east-1', // Update to your preferred region
+  region: 'us-west-2', // Update to your preferred region
 });
 
 const putItem = async (table, item) => {
