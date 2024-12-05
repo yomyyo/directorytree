@@ -22,7 +22,7 @@ The `DirectoryTree` CLI is a simple interactive Node.js application for managing
 1. Clone or save the script to a file (e.g., `directoryTree.js`).
 2. Run the script:  
    ```bash
-   ./directoryTree.js
+   node directoryTree.js
    ```
 
 ## Commands
